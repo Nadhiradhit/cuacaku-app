@@ -7,7 +7,11 @@
         font-size: 1.3rem;
         font-weight: 600;
 
-    @apply text-slate-800 bg-primary
-    
+        @apply text-slate-800 bg-primary
+
+    }
+
+    .input-text{
+        @apply block w-full p-2 ps-10 text-sm text-primary bg-secondary placeholder-primary rounded-lg focus:ring-blue-500 focus:border-blue-500
     }
 }

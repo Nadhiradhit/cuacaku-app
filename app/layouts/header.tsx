@@ -11,7 +11,7 @@ export default function Header() {
                 <div className="">
                     <h4 className="header-text">Cuaca-Ku</h4>
                 </div>
-                <div className="flex gap-2">
+                <div className="flex gap-2 items-center">
                     <ul>
                         <li>Hello</li>
                     </ul>
