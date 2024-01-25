@@ -6,12 +6,12 @@
     .header-text{
         font-size: 1.3rem;
         font-weight: 600;
-
-        @apply text-slate-800 
+        
+        @apply text-blue-500
 
     }
 
     .input-text{
-        @apply block w-full p-2 ps-10 text-sm  rounded-lg focus:ring-blue-500 focus:border-blue-500
+        @apply w-auto lg:w-64 bg-blue-50 p-2 ps-10 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 focus:outline-none appearance-none ring-1 ring-transparent
     }
 }
