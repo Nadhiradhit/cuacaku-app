@@ -1,10 +1,15 @@
-import React from 'react'
-import Search from './user/search'
+"use client"
+import React, {useState} from "react"
 
 
 export default function Home() {
+
+  const [data, setData] = useState({
+
+  })
+
   return (
-    <Search/>
+    <div className="">page</div>
   )
 }
 
