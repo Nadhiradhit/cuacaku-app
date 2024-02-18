@@ -12,6 +12,6 @@
     }
 
     .input-text{
-        @apply w-auto lg:w-64 bg-blue-50 p-2 ps-10 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 focus:outline-none appearance-none ring-1 ring-transparent
+        @apply w-auto lg:w-full bg-slate-50 p-4 ps-4  text-sm rounded-lg focus:ring-slate-900 focus:border-slate-900 focus:outline-none appearance-none ring-1 ring-transparent
     }
 }
