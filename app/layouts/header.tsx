@@ -2,25 +2,16 @@
 import React from "react"
 import Input from "../components/input"
 
-
-
 export default function Header() {
     return (
-        <header className="sticky top-0 z-50 bg-slate-50 bg-opacity-80 backdrop-blur-[0.5rem]">
-            <nav className="flex items-center justify-between p-2 mx-24">
-                <div className="">
-                    <h4 className="header-text !font-bold">Cuaca-Ku</h4>
+        <header className="bg-primary">
+            <div className="max-w-screen-xl mx-auto py-8 px-4 text-center lg:py-16 lg:px-12">
+                <div className="text-white">
+                    <h1 className="text-5xl font-extrabold tracking-tight">Search Weather!</h1>
+                    <span className="text-lg font-light">Enter a city and get the weather</span>
                 </div>
-                <div className="hidden md:block">
-                    <Input/>
-                </div>
-                <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                        <span className="sr-only">Open main menu</span>
-                        <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                        </svg>
-                </button>
-            </nav>
+                <Input/>
+            </div>
         </header>
     )
 }
